@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mateo Flores - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <span class="name">Mateo Flores</span>
+        <nav class="links">
+          <a href="./index.html">HOME</a>
+          <span style="color: #EB5939" >|</span>
+          <a href="./about.html">ABOUT</a>
+          <span style="color: #EB5939" >|</span>
+          <a href="./portfolio.html">PORTFOLIO</a>
+          <span style="color: #EB5939" >|</span>
+          <a class="active" href="./contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+    <h1>Contact Me</h1>
+    <form>
+        <p>I do <span style="color: #eb5939">Freelance</span> work! For a <span style="color: #eb5939">free</span> consultation, please fill out this form with the required information</p>
+      <fieldset>
+        <label for="first-name">First Name: <input id="first-name" name="first-name" type="text" required /></label><br>
+        <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" required /></label><br>
+        <label for="email">Email: <input id="email" name="email" type="email" required /></label><br>
+        <label for="new-password">Phone Number: <input id="phone-number" name="phone-number" type="number" required /></label>
+      </fieldset>
+      <fieldset>
+        <p>What is your reason for contacting me?</p>
+        <label for="website"><input id="website" type="radio" name="contact-reason" class="inline" /> Build a Website</label>
+        <label for="computer-app"><input id="computer-app" type="radio" name="contact-reason" class="inline" /> Build a Desktop App</label>
+        <label for="mobile-app"><input id="mobile-app" type="radio" name="contact-reason" class="inline" /> Build a Mobile App</label>
+        <label for="fix-code"><input id="fix-code" type="radio" name="contact-reason" class="inline" /> Fix an issue in my current site or app</label>
+      </fieldset>
+      <fieldset>
+        <label for="file">(OPTIONAL) upload a file: <input id="file" type="file" name="file" /></label><br>
+        <label for="referrer">How did you hear about me?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Website or online advertising</option>
+            <option value="2">Previous client</option>
+            <option value="3">Word of mouth</option>
+            <option value="4">Other</option>
+          </select>
+        </label><br>
+        <label for="description">Please tell me about yourself:<br>
+          <textarea id="description" name="description" rows="3" cols="30" placeholder="I want a website for my business..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+    </main>
+    <footer>
+        <a target="_blank" href="http://www.github.com"
+        ><img class="icon" alt="GitHub logo" src="./git.webp"
+      /></a>
+      <a target="_blank" href="http://www.youtube.com"
+        ><img class="icon" alt="YouTube logo" src="yt-logo.png"
+      /></a>
+      <a target="_blank" href="http://www.linkedin.com"
+        ><img class="icon" alt="LinkedIn logo" src="linkedin-logo.webp"
+      /></a>
+      <a target="_blank" href="http://www.twitter.com"
+        ><img class="icon" alt="Twitter logo" src="twitter-logo.svg"
+      /></a>
+    </footer>
+  </body>
+</html>

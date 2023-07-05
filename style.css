@@ -106,6 +106,12 @@ header a:hover {
     font-size: 2.1rem;
 }
 
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #EB5939;
+  }
+
 .heading a:hover {
     color: #EB5939;
     font-size: 1.6rem;
@@ -115,6 +121,31 @@ a:active {
     text-decoration: none;
     color: aliceblue;
 }
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #EB5939;
+    border-color: white;
+    min-width: 300px;
+    color: aliceblue;
+  }
 
 footer {
     box-sizing: border-box;
